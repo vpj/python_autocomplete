@@ -1,0 +1,14 @@
+comment: Simple LSTM
+commit: 301ee43c2edb9523ca7b66f258c7908c8e5be3a6
+commit_message: "\U0001F41B validation set wasn't passed"
+is_dirty: true
+load_run: null
+notes: ''
+python_file: /home/varuna/ml/python_autocomplete/train.py
+start_step: 0
+tags:
+- lstm
+- simple
+trial_date: '2020-05-11'
+trial_time: '15:22:46'
+uuid: 2a86d636936d11eab8740dffb016e7b1

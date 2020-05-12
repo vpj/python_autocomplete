@@ -1,0 +1,10 @@
+train.loss:
+  class_name: Queue
+  is_print: true
+  name: train.loss
+  queue_size: 500
+valid.loss:
+  class_name: Queue
+  is_print: true
+  name: valid.loss
+  queue_size: 500
