@@ -198,7 +198,7 @@ def main_train():
                 with DelayedKeyboardInterrupt():
                     # Set global step
                     global_step = epoch * batches + min(batches, (batches * i) // steps_per_epoch)
-                    loop.set_global_step(global_step)
+                    tracker.set_global_step(global_step)
 
                     # Last batch to train and validate
                     train_batch_limit = trainer.x.shape[0] * min(1., (i + 1) / steps_per_epoch)
