@@ -4,7 +4,7 @@ from typing import List
 import numpy as np
 import torch
 import torch.nn
-from labml import experiment, monit, tracker, loop, logger
+from labml import experiment, monit, tracker, logger
 from labml.utils.delayed_keyboard_interrupt import DelayedKeyboardInterrupt
 
 import parser.load
@@ -164,7 +164,7 @@ def main_train():
     steps_per_epoch = 200
 
     # Train for 100 epochs
-    for epoch in loop.loop(range(100)):
+    for epoch in monit.loop(range(100)):
         # Create trainer
         trainer = Trainer(files=train_files,
                           model=model,
