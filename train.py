@@ -98,7 +98,7 @@ class Trainer:
 
         # Flatten outputs
         logits = logits.view(-1, self.p.shape[-1])
-        yi = self.y[i].view(-1)
+        yi = self.y[i].reshape(-1)
 
         # Calculate loss
         loss = self.loss_func(logits, yi)
