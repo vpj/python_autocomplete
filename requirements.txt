@@ -1,3 +1,4 @@
 labml
 torch
 numpy
+tensorflow
