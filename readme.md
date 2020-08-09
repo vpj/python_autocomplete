@@ -1,4 +1,4 @@
-### ⭐️ We rewrote a simpler version of this [lab-ml/source_code_modelling](https://github.com/lab-ml/source_code_modelling) and we intend to maintain it for a while
+### ⭐️ We rewrote a simpler version of this at [lab-ml/source_code_modelling](https://github.com/lab-ml/source_code_modelling) and we intend to maintain it for a while
 
 [This](https://github.com/vpj/python_autocomplete) a toy project we started
 to see how well a simple LSTM model can autocomplete python code.
